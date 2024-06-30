@@ -1,5 +1,10 @@
+@font-family {
+  font-family: fontMain;
+  src: url(fonts/Afacad-Regular.ttf);
+}
+
 h1 {
-  font-family: Afacad, "Trebuchet MS", sans-serif;
+  font-family: fontMain, "Trebuchet MS", sans-serif;
 }
 
 div {
