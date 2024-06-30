@@ -7,13 +7,98 @@ h1 {
   font-family: fontMain, "Trebuchet MS", sans-serif;
   font-size: 60px;
   text-align: center;
-  text-color: white;
+  color: white;
 }
 
-div {
-  width: 100%;
+h2 {
+  font-family: fontMain, "Trebuchet MS", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  font-family: fontMain, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  background-color: #00000036;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li a {
+  display: block;
+  color: #ffffff;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-family: fontMain, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #00000046;
+  color: white;
+}
+
+#title {
+  width: 100% - 20px;
   padding: 20px;
-  margin: auto;
-  background-color: #3650e3;
+  background-color: #364ae3;
   background-image: linear-gradient(#364ae3, #39a3e3);
 }
+
+#intro {
+  width: 100% - 20px;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #39a3e3;
+  background-image: linear-gradient(#39a3e3, #39e3bb);
+}
+
+#part1 {
+  width: 100% - 20px;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #39e3bb;
+  background-image: linear-gradient(#39e3bb, #e0ee22);
+}
+
+#part2 {
+  width: 100% - 20px;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #e0ee22;
+  background-image: linear-gradient(#e0ee22, #eeb422);
+}
+
+#part3 {
+  width: 100% - 20px;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #eeb422;
+  background-image: linear-gradient(#eeb422, #ee4122);
+}
+
+#conclusion {
+  width: 100% - 20px;
+  height: 1000px;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #ee4122;
+  background-image: linear-gradient(#ee4122, #ee22a0, #aa22ee, #364ae3);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+} 
