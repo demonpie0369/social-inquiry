@@ -103,6 +103,16 @@ li a:hover {
   background-color: #b7c31c;
 }
 
+#part1text {
+  width: 75% - 20px;
+  padding: 20px;
+}
+
+img {
+  margin: 0px;
+  width: 25%;
+}
+
 #part2 {
   width: 100% - 20px;
   padding: 20px;
