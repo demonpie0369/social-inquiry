@@ -45,6 +45,13 @@ p {
   color: #ffffff;
 }
 
+a {
+  font-family: fontMain, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
