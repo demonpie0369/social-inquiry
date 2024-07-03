@@ -38,6 +38,13 @@ p {
   color: #00000099;
 }
 
+a {
+  font-family: fontMain, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -150,7 +157,14 @@ img {
   width: 100% - 20px;
   padding: 20px;
   background-color: #b8187b;
-  background-image: linear-gradient(#b8187b, #7319b4, #2a3ab3);
+  background-image: linear-gradient(#b8187b, #7319b4);
+}
+
+#sources {
+  width: 100% - 20px;
+  padding: 20px;
+  background-color: #7319b4;
+  background-image: linear-gradient(#7319b4, #2a3ab3);
 }
 
 html, body {
