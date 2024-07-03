@@ -38,7 +38,7 @@ p {
   color: #00000099;
 }
 
-a {
+#linktext {
   font-family: fontMain, "Trebuchet MS", sans-serif;
   font-size: 20px;
   text-align: center;
